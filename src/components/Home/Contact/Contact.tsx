@@ -1,5 +1,5 @@
 import './Contact.css';
-import Map from '../Map/Map';
+// import Map from '../Map/Map';
 import Logo from '../../../assets/akomegaag_logo.png';
 
 const Contact = () => {
@@ -26,7 +26,7 @@ const Contact = () => {
             <p> Telefon: 062 771 50 07</p>
           </div>
         </div>
-        <Map />
+        {/* <Map /> */}
       </div>
     </>
   );

@@ -134,7 +134,9 @@
   .brugg-container {
     flex-direction: column;
   }
-
+  .brugg-img {
+    max-width: 100%;
+  }
   .item-list-container {
     grid-template-columns: 1fr !important;
     grid-template-rows: auto;
@@ -142,13 +144,13 @@
 
   .projects-grid {
     flex-basis: calc(100% - 20px);
-    .projects-grid > * {
-      flex-basis: calc(33.333% - 20px);
-      margin-right: 20px;
-      margin-bottom: 20px;
-    }
-    .projects-grid > *:last-child {
-      margin-right: 0;
-    }
+  }
+  .projects-grid > * {
+    flex-basis: calc(33.333% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .projects-grid > *:last-child {
+    margin-right: 0;
   }
 }

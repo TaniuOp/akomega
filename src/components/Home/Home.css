@@ -22,8 +22,8 @@
 }
 
 .home-header img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   display: block;
   position: absolute;
   top: 0;
@@ -114,6 +114,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .home-header img {
+    height: 100%;
+    width: auto;
+  }
+
   .about-section {
     display: flex;
     flex-direction: column;
