@@ -44,3 +44,9 @@
   max-width: 15%;
   position: relative;
 }
+
+@media screen and (max-width: 850px) {
+  .contact-image-container {
+    max-width: 50%;
+  }
+}

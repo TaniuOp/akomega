@@ -93,6 +93,7 @@
   justify-content: center;
   flex-direction: column;
   margin: 50px;
+  overflow: scroll;
 }
 
 .brugg-text-title {
@@ -130,7 +131,7 @@
   margin: 0 20px 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .brugg-container {
     flex-direction: column;
   }
@@ -144,11 +145,10 @@
 
   .projects-grid {
     flex-basis: calc(100% - 20px);
+    justify-content: space-evenly;
   }
   .projects-grid > * {
     flex-basis: calc(33.333% - 20px);
-    margin-right: 20px;
-    margin-bottom: 20px;
   }
   .projects-grid > *:last-child {
     margin-right: 0;

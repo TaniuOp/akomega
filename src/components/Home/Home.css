@@ -113,10 +113,11 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .home-header img {
     height: 100%;
     width: auto;
+    /* transform: translateX(-16%); */
   }
 
   .about-section {
@@ -143,5 +144,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .concept-text {
+    text-align: justify;
   }
 }
