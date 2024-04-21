@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 import './Home.css';
-import Brugg from '../../assets/brugg_large.jpg';
+// import Brugg from '../../assets/brugg_large.jpg';
 import Services from './Services/Services';
 import Projects from './Projects/Projecsts';
 import Contact from './Contact/Contact';
+import Widen from '../../assets/widen.jpg';
 
 const Home = () => {
   useEffect(() => {
@@ -34,7 +35,7 @@ const Home = () => {
           <h1 className='big-image-text'>AK Omega AG</h1>
           <p> Design & Konstruktion im modernstem Stil.</p>
         </section>
-        <img src={Brugg} alt='image' />
+        <img src={Widen} alt='image' />
       </header>
 
       <main>
