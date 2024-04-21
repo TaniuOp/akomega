@@ -21,11 +21,11 @@ const Footer = () => {
           <i className='fa fa-twitter'>E-Mail: info@omega-gu-ag.ch</i>
         </a>
       </div>
-      <div className='footer-info'>
+      {/* <div className='footer-info'>
         <p> Öffnungszeiten: </p>
         <p> Montag - Freitag </p>
         <p> 08:00 - 12:00 & 13:30 - 17:00</p>
-      </div>
+      </div> */}
     </footer>
   );
 };
