@@ -1,0 +1,145 @@
+.projects-container {
+  margin: 40px auto;
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.brugg-title {
+  margin-top: 30px;
+}
+
+.brugg-text {
+  margin-bottom: 20px;
+}
+
+.projects-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.projects-grid {
+  flex: 1;
+  margin: 10px;
+  border: 1px solid rgb(238 231 209);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.projects-grid-image {
+  background-color: #ccc;
+  height: 200px;
+}
+
+.projects-grid-title {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.projects-grid-description {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.projects-grid-adress {
+  font-size: 12px;
+}
+
+.projects-more-info-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.projects-more-info {
+  background-color: #606b51;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.projects-more-info:hover {
+  background-color: #416313;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.projects-images {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.brugg-container {
+  display: flex;
+  background-color: #efe7d1;
+}
+
+.brugg-img {
+  max-width: 50%;
+}
+
+.brugg-text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.brugg-text-title {
+  margin: 0;
+}
+
+.projects-grid-content {
+  margin: 10px;
+}
+
+.item-list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.column {
+  background-color: #606b5169;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.brugg-points-big {
+  font-size: 18px;
+}
+
+.brugg-points-small {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.projects-title-container {
+  margin: 0 20px 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-grid {
+    flex-basis: calc(100% - 20px);
+    .projects-grid > * {
+      flex-basis: calc(33.333% - 20px);
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    .projects-grid > *:last-child {
+      margin-right: 0;
+    }
+  }
+}

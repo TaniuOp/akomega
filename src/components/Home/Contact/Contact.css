@@ -1,0 +1,46 @@
+.contact-sections-container {
+  margin-bottom: 40px;
+}
+
+.contact-sections {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-texts {
+  margin: 1px;
+  text-align: left;
+}
+
+.contact-texts p {
+  color: #414141;
+  margin: 0;
+}
+
+.contact-logo {
+  width: 25%;
+  height: fit-content;
+  position: sticky;
+  top: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+  z-index: 1;
+}
+
+.contact-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-image-container {
+  max-width: 15%;
+  position: relative;
+}
