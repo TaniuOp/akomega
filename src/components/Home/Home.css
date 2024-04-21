@@ -22,12 +22,12 @@
 }
 
 .home-header img {
-  width: 100%;
+  height: 100%;
+  width: auto;
   display: block;
   position: absolute;
   top: 0;
   left: 0;
-  height: auto;
   z-index: -1;
   transition: transform 0.3s ease;
 }
@@ -111,4 +111,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+    border: 1px solid rgb(238 231 209);
+  }
+
+  .about-us-texts {
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .about-us-extra {
+    background-color: rgb(238 231 209);
+    padding: 8px;
+  }
+
+  .team {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

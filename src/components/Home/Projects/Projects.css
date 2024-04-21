@@ -131,6 +131,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .brugg-container {
+    flex-direction: column;
+  }
+
+  .item-list-container {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto;
+  }
+
   .projects-grid {
     flex-basis: calc(100% - 20px);
     .projects-grid > * {
