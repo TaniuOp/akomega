@@ -186,4 +186,14 @@
   .concept-text {
     text-align: justify;
   }
+
+  .about-section-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .about-us-images-container {
+    margin-top: 20px;
+  }
 }
