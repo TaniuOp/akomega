@@ -6,12 +6,12 @@ function App() {
     <>
       <div>
         <a href='https://www.traumheim-ag.ch/' target='_blank'>
-          <img src={AKLogo} className='logo' alt='Vite logo' />
+          <img src={AKLogo} className='logo' alt='AK logo' />
         </a>
       </div>
       <h1>AK OMEGA AG</h1>
       <div className='card'>
-        <p>Comming Soon</p>
+        <p>Under construction</p>
       </div>
     </>
   );
