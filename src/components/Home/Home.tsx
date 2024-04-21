@@ -124,7 +124,7 @@ const Home = () => {
                 alt='ak omega ag team'
               />
               <p className='person-name'>Alexandra G.</p>
-              <p className='person-nadescriptionme'>Architekt</p>
+              <p className='person-description'>Architekt</p>
             </div>
             <div className='person-container'>
               <img
