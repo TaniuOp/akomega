@@ -55,6 +55,12 @@
   border: 1px solid rgb(238 231 209);
   padding: 18px;
   justify-content: space-around;
+  flex-direction: column;
+}
+
+.about-section-text {
+  display: flex;
+  justify-content: space-around;
 }
 
 .team {
@@ -103,7 +109,7 @@
 }
 
 .about-us-texts {
-  width: 30%;
+  width: 40%;
 }
 
 .about-us-extra {
@@ -111,6 +117,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about-us-images-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-us-image {
+  width: 10vw;
+  border-radius: 50%;
+  height: 10vw;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person-name {
+  margin: 2px;
+  font-weight: bold;
+}
+
+.person-description {
+  margin: 2px;
 }
 
 @media screen and (max-width: 850px) {
@@ -123,7 +159,7 @@
   .about-section {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     flex-wrap: wrap;
     border: 1px solid rgb(238 231 209);
   }
