@@ -8,7 +8,9 @@
 }
 
 .brugg-title {
-  margin-top: 30px;
+  font-size: 18px;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
 }
 
 .brugg-text {
@@ -93,7 +95,7 @@
   justify-content: center;
   flex-direction: column;
   margin: 50px;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .brugg-text-title {
@@ -105,17 +107,19 @@
 }
 
 .item-list-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 20px;
   width: 100%;
   margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .column {
   background-color: #606b5169;
   padding: 10px;
   border-radius: 5px;
+  min-width: 20%;
 }
 
 .brugg-points-big {
@@ -138,10 +142,6 @@
   .brugg-img {
     max-width: 100%;
   }
-  .item-list-container {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: auto;
-  }
 
   .projects-grid {
     flex-basis: calc(100% - 20px);
@@ -152,5 +152,9 @@
   }
   .projects-grid > *:last-child {
     margin-right: 0;
+  }
+
+  .column {
+    min-width: 80%;
   }
 }

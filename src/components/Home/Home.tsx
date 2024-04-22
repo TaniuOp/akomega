@@ -96,7 +96,7 @@ const Home = () => {
               />
               <p className='person-name'>Diana Heger</p>
               {/* <p className='person-description'>Projektleiter </p> */}
-              <p className='person-description'>Senior Architekt</p>
+              <p className='person-description'>Senior Architektin</p>
             </div>
 
             <div className='person-container'>
@@ -124,7 +124,7 @@ const Home = () => {
                 alt='ak omega ag team'
               />
               <p className='person-name'>Alexandra G.</p>
-              <p className='person-description'>Architekt</p>
+              <p className='person-description'>Architektin</p>
             </div>
             <div className='person-container'>
               <img

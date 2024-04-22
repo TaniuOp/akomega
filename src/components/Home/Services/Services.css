@@ -35,6 +35,9 @@
   font-size: 15px;
   color: #79737b;
 }
+.grid-title {
+  font-weight: bold;
+}
 
 @media screen and (max-width: 850px) {
   .grid-container {
