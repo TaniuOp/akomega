@@ -5,18 +5,36 @@ import Boden from '../../../assets/bodenfelstrasse.jpg';
 import Widen from '../../../assets/widen.jpg';
 import Ober from '../../../assets/oberkulm.png';
 import Bahnhof from '../../../assets/bahnhofstrasse.png';
+import Render from '../../../assets/image_ai_two.jpg';
+import Logo from '../../../assets/akomegaag_logo.png';
 
 const Projects = () => {
   return (
     <div className='projects-container'>
       <div className='projects-title-container'>
-        <h2>WAS BAUEN WIR JETZT</h2>
-        <p className='projects-text'>
-          Unter unseren jüngsten Projekten finden Sie drei Wohngemeinschaften.
-          Wir sind in der Lage, unsere Skizzen für die Bedürfnisse und
-          Anforderungen unserer Kunden in die Realität umzusetzen. Kontaktieren
-          Sie uns noch heute, um weitere Informationen zu erhalten.
-        </p>
+        <div className='projects-intro'>
+          <h2>WAS BAUEN WIR JETZT</h2>
+          <div className='projects-text-container'>
+            <p className='projects-text'>
+              Unter unseren jüngsten Projekten finden Sie drei
+              Wohngemeinschaften.
+            </p>
+
+            <p className='projects-text'>
+              Wir sind in der Lage, unsere Skizzen für die Bedürfnisse und
+              Anforderungen unserer Kunden in die Realität umzusetzen.
+            </p>
+
+            <p className='projects-text'>
+              Kontaktieren Sie uns noch heute, um weitere Informationen zu
+              erhalten.
+            </p>
+          </div>
+        </div>
+        <div className='projects-logo'>
+          <img src={Logo} alt='Logo' className='projects-logo-img' />
+          <img src={Render} alt='projcts-ak' className='projects-title-img' />
+        </div>
       </div>
       <div>
         <div className='brugg-container'>
@@ -86,10 +104,10 @@ const Projects = () => {
               empfehlen Ihnen, sich einen kurzen Einblick in dieses Projekt zu
               verschaffen.
             </p>
-            <p className='projects-grid-adress'>
-              Myrtenstrasse 6+8 5737 Menziken AG
-            </p>
           </div>
+          <p className='projects-grid-adress'>
+            Myrtenstrasse 6+8 5737 Menziken AG
+          </p>
         </div>
         <div className='projects-grid'>
           <div className='projects-grid-image'>
@@ -103,10 +121,10 @@ const Projects = () => {
               sind. Wir empfehlen Ihnen, sich dieses Meisterwerk bei jeder
               Gelegenheit anzusehen .
             </p>
-            <p className='projects-grid-adress'>
-              Schachenfeldstrasse 19+21 8967 Widen
-            </p>
           </div>
+          <p className='projects-grid-adress'>
+            Schachenfeldstrasse 19+21 8967 Widen
+          </p>
         </div>
         <div className='projects-grid'>
           <div className='projects-grid-image'>
@@ -119,10 +137,10 @@ const Projects = () => {
               Lieblingsprojekte. Aus unserer Sicht die perfekte Kombination aus
               Design und Funktionalität.
             </p>
-            <p className='projects-grid-adress'>
-              Bodenfeldstrasse 1 5737 Menziken AG
-            </p>
           </div>
+          <p className='projects-grid-adress'>
+            Bodenfeldstrasse 1 5737 Menziken AG
+          </p>
         </div>
         <div className='projects-grid'>
           <div className='projects-grid-image'>
@@ -135,8 +153,8 @@ const Projects = () => {
               und den Reaktionen der Besucher nach zu urteilen, genau das
               schafft sie.
             </p>
-            <p className='projects-grid-adress'>Schrägweg 21 5727 Oberkulm</p>
           </div>
+          <p className='projects-grid-adress'>Schrägweg 21 5727 Oberkulm</p>
         </div>
         <div className='projects-grid'>
           <div className='projects-grid-image'>
@@ -150,10 +168,10 @@ const Projects = () => {
               majestätisches Ambiente erhalten bleiben. Wir empfehlen Ihnen,
               dieses Meisterwerk bei jeder Gelegenheit zu sehen.
             </p>
-            <p className='projects-grid-adress'>
-              Bahnhofstrasse 18 5737 Menziken
-            </p>
           </div>
+          <p className='projects-grid-adress'>
+            Bahnhofstrasse 18 5737 Menziken
+          </p>
         </div>
       </div>
     </div>

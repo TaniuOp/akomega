@@ -9,6 +9,7 @@ import Diana from '../../assets/diana.png';
 import Alex from '../../assets/alex.png';
 import Stefan from '../../assets/stefan.png';
 import Ivan from '../../assets/ivan.png';
+import Uns from '../../assets/planos.jpg';
 
 const Home = () => {
   useEffect(() => {
@@ -81,6 +82,8 @@ const Home = () => {
                 Entwicklung unserer Projekte.
               </p>
             </div>
+
+            <img className='about-us-img' src={Uns} alt='us' />
           </div>
 
           <div className='about-us-extra'>

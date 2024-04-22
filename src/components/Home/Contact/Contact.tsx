@@ -3,6 +3,19 @@ import './Contact.css';
 import Logo from '../../../assets/akomegaag_logo.png';
 
 const Contact = () => {
+  const MapEmbed = () => {
+    return (
+      <iframe
+        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.288673751336!2d8.182062053729705!3d47.250058211471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790193c759ba899%3A0xc74003bf3c43d76a!2sHauptstrasse%2069%2C%205734%20Reinach!5e0!3m2!1ses!2sch!4v1713786685034!5m2!1ses!2sch'
+        width='100%'
+        height='300'
+        style={{ border: 0 }}
+        loading='lazy'
+        referrerPolicy='no-referrer-when-downgrade'
+      ></iframe>
+    );
+  };
+
   return (
     <>
       <h2> KONTAKTIERE UNS </h2>
@@ -27,6 +40,7 @@ const Contact = () => {
           </div>
         </div>
         {/* <Map /> */}
+        <MapEmbed />
       </div>
     </>
   );
