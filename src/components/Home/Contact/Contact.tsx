@@ -35,7 +35,7 @@ const Contact = () => {
           </div>
           <div className={'contact-texts'}>
             <p> Diana Heger</p>
-            <p> E-Mail: info@omega-gu-ag.ch </p>
+            <p> E-Mail: dh@omega-gu-ag.ch </p>
             <p> Telefon: 062 771 50 07</p>
           </div>
         </div>
