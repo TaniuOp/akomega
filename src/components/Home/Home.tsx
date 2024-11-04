@@ -8,7 +8,6 @@ import Widen from '../../assets/widen.jpg';
 import Diana from '../../assets/diana.png';
 import Alex from '../../assets/alex.png';
 import Stefan from '../../assets/stefan.png';
-import Ivan from '../../assets/ivan.png';
 import Uns from '../../assets/planos.jpg';
 
 const Home = () => {
