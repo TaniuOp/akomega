@@ -113,11 +113,11 @@ const Home = () => {
             </div>
             <div className='person-container'>
               <img
-                src={Ivan}
+                src={Widen}
                 className='about-us-image'
                 alt='ak omega ag team'
               />
-              <p className='person-name'>Ivan J.</p>
+              <p className='person-name'>Karola Almeida</p>
               <p className='person-description'>Administration</p>
             </div>
             <div className='person-container'>
