@@ -110,15 +110,7 @@ const Home = () => {
               <p className='person-name'>Stefan S.</p>
               <p className='person-description'>Bauherr</p>
             </div>
-            <div className='person-container'>
-              <img
-                src={Widen}
-                className='about-us-image'
-                alt='ak omega ag team'
-              />
-              <p className='person-name'>Karola Almeida</p>
-              <p className='person-description'>Administration</p>
-            </div>
+          
             <div className='person-container'>
               <img
                 src={Alex}
